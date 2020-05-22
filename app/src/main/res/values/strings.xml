@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">WeatherAlarm</string>
+    <string name="settings">Settings</string>
+    <string name="list_alarms">View alarms</string>
+    <string name="alarm">Set alarm</string>
+    <string name="dialogdescription">Choose when you want your alarm and ringtone</string>
+    <string name="title_dialog">Set an alarm</string>
+    <string name="fire">Save</string>
+    <string name="cancel">Close</string>
+    <string name="ringtone">Ringtone</string>
 </resources>
