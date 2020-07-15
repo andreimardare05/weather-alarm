@@ -1,11 +1,77 @@
 <resources>
-    <string name="app_name">WeatherAlarm</string>
+    <string name="app_name">Weathery</string>
     <string name="settings">Settings</string>
-    <string name="list_alarms">View alarms</string>
+    <string name="list_alarms">Weathery Alarm</string>
     <string name="alarm">Set alarm</string>
-    <string name="dialogdescription">Choose when you want your alarm and ringtone</string>
+    <string name="dialogdescription">Choose when you want your alarm</string>
     <string name="title_dialog">Set an alarm</string>
     <string name="fire">Save</string>
     <string name="cancel">Close</string>
     <string name="ringtone">Ringtone</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_alarms">Alarms</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="alarm_name">Hello</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_alarm">Weathery Alarm</string>
+    <string name="empty_view_text">No alarm has been set. Set one by pressing set alarm in the menu on navigation bar. </string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="add_label_hint">Add name to your alarm</string>
+    <string name="update_complete">Alarm was updated</string>
+    <string name="update_failed">Alarm was not updated</string>
+    <string name="delete_complete">Alarm was deleted</string>
+    <string name="delete_failed">Alarm was not deleted</string>
+    <string name="delete_dialog_title">Confirm delete alarm</string>
+    <string name="delete_dialog_content">Are you sure you would like to delete this alarm?</string>
+    <string name="yes">Sure</string>
+    <string name="no">No</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="launch_main_activity">Launch Main Activity</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- Notification -->
+    <string name="channel_name">Alarm</string>
+    <string name="check_weather">Check weather</string>
 </resources>

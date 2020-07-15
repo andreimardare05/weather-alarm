@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginBottom="5dp"
+        android:text="@string/dialogdescription"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/messageTextInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_alarm_label"
+                    android:layout_width="216dp"
+                    android:layout_height="60dp"
+                    android:hint="@string/add_label_hint"
+                    android:inputType="textNoSuggestions"
+                    android:maxLength="15" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TimePicker
+                android:id="@+id/edit_alarm_time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="371dp"
+                android:layout_gravity="center" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                app:rowOrderPreserved="true">
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_mon"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mon."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="0"
+                    app:layout_row="0" />
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_tues"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tues."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_wed"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wed."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="2"
+                    app:layout_row="0" />
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_thurs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thurs."
+                    android:theme="@style/MyCheckbox" />
+
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_fri"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fri."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_sat"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sat."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <CheckBox
+                    android:id="@+id/edit_alarm_sun"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sun."
+                    android:theme="@style/MyCheckbox"
+                    app:layout_column="2"
+                    app:layout_row="1" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <CheckBox
+                android:id="@+id/checkbox_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Check for Weather Alarm"
+                android:theme="@style/MyCheckbox" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

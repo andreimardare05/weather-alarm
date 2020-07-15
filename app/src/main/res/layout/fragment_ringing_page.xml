@@ -26,9 +26,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="99dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="14dp"
             android:layout_marginBottom="36dp"
             android:orientation="vertical">
 
@@ -301,6 +301,19 @@
 
         </LinearLayout>
 
+        <Button
+            android:id="@+id/dismiss_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Icon"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/dismiss" />
+
     </RelativeLayout>
 
     <ProgressBar android:id="@+id/loader" android:layout_width="wrap_content"
@@ -310,6 +323,5 @@
     <TextView android:id="@+id/errorText" android:layout_width="wrap_content"
         android:layout_height="wrap_content" android:layout_centerInParent="true"
         android:visibility="gone" android:text="Something went wrong"/>
-
 
 </RelativeLayout>

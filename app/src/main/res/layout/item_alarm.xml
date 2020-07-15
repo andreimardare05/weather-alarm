@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeight"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true">
+
+
+    <TextView
+        android:id="@+id/ar_time"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:gravity="start|bottom"
+        android:textAlignment="viewEnd"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="7:00"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/ar_am_pm"
+        android:layout_width="23dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ar_time"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/ar_time"
+        android:layout_toRightOf="@+id/ar_time"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="AM" />
+
+    <TextView
+        android:id="@+id/ar_label"
+        android:layout_width="145dp"
+        android:layout_height="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="32dp"
+        tools:text="Get Up" />
+
+    <TextView
+        android:id="@+id/ar_days"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="7dp"
+        tools:text="M Tu W Th F Sa Su" />
+
+    <ImageView
+        android:id="@+id/weather_black"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_alarm_speak_weather_black"
+        />
+
+
+    <ImageView
+        android:id="@+id/weather_color"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_alarm_speak_weather_color" />
+
+</RelativeLayout>
